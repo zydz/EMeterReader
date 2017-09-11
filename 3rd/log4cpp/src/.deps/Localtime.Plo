@@ -1,0 +1,49 @@
+Localtime.lo: Localtime.cpp ../include/log4cpp/Portability.hh \
+ ../include/log4cpp/config.h ../include/log4cpp/Export.hh Localtime.hh \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/types.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/memory.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/string.h
+
+../include/log4cpp/Portability.hh:
+
+../include/log4cpp/config.h:
+
+../include/log4cpp/Export.hh:
+
+Localtime.hh:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/memory.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/string.h:

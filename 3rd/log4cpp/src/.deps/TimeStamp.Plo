@@ -1,0 +1,71 @@
+TimeStamp.lo: TimeStamp.cpp ../include/log4cpp/TimeStamp.hh \
+ ../include/log4cpp/Portability.hh ../include/log4cpp/config.h \
+ ../include/log4cpp/Export.hh \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/cstring \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/arm-linux-gnueabihf/bits/c++config.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/arm-linux-gnueabihf/bits/os_defines.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/arm-linux-gnueabihf/bits/cpu_defines.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/time.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/types.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/select.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/select.h \
+ /opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sigset.h
+
+../include/log4cpp/TimeStamp.hh:
+
+../include/log4cpp/Portability.hh:
+
+../include/log4cpp/config.h:
+
+../include/log4cpp/Export.hh:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/cstring:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/arm-linux-gnueabihf/bits/c++config.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/arm-linux-gnueabihf/bits/os_defines.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/predefs.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/include/c++/4.8.3/arm-linux-gnueabihf/bits/cpu_defines.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/lib/gcc/arm-linux-gnueabihf/4.8.3/include/stddef.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/opt/Work/pi/kernel/RpiTools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf/bits/sigset.h:

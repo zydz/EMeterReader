@@ -1,0 +1,50 @@
+Main program
+
+The main program in the file main.cpp takes over the coordination of the components described. It is controlled via command line parameters, a short explanation provides the option -h:
+
+Usage: emeocv [-i <dir>|-c <cam>] [-l|-t|-a|-w|-o <dir>] [-s <delay>] [-v <level>]
+
+Image input:
+  -i <image directory> : read image files (png) from directory.
+  -c <camera number> : read images from camera.
+
+Operation:
+  -a : adjust camera.
+  -o <directory> : capture images into directory.
+  -l : learn OCR.
+  -t : test OCR.
+  -w : write OCR data to RR database. This is the normal working mode.
+
+Options:
+  -s <n> : Sleep n milliseconds after processing of each image (default=1000).
+  -v <l> : Log level. One of DEBUG, INFO, ERROR (default).
+
+The input is selected by -i (Image directory) or -c (camera). In addition, the specification of the desired operation is required. One starts usually when the camera is connected with:
+
+emeocv -c0 -a -s10 -vINFO
+
+This is used to adjust the camera and light. The program opens a window to display the image recorded by the camera. The user can switch with the keys r and p between the original and the pre-processed image. By means of
+
+emeocv -c0 -o images -s10000
+
+a directory can be filled with images taken by the camera every 10 seconds. These images can be inspected offline:
+
+emeocv -i images -a -s0 -vINFO
+
+The aim is to achieve a correct segmentation of each digit of the counter, as it can be seen in Fig. 7. This is achieved primarily by modifying the configuration parameters in config.yml. The parameters are not documented, a basic understanding of the operation and the source code are therefore an essential prerequisite for this step!
+
+If successful, it is time to train the OCR:
+
+emeocv -i images -l
+
+The training result is checked with:
+
+emeocv -i images -t -s0
+
+For normal operation, the database should be created first as described above. The acquisition program ideally runs in the background:
+
+nohup emeocv -c0 -w -s10000 -vINFO &
+
+With -s10000 the data acquisition takes place every 10 seconds. This leaves enough time for other tasks to the CPU of the Raspberry Pi. But the intervals should be not to large, because this increases the likelihood that an incomplete number is at the last counter digit and a correct detection isn't possible.
+
+The -v option controls the output of messages to the log file emeocv.log. The logging isn't described in the present paper, the underlying techniques and frameworks (here: log4cpp) should be known.
