@@ -9,7 +9,7 @@ emeocv使用的一般步骤
     
 - 取样
 	- 从/dev/video0 每隔1秒拍摄一张图片，存放在images/目录下
-	> emeocv -c0 -o images/ -s1000
+	> ./Debug/emeocv -c0 -o images/ -s1000
 - 监督学习
 	- ./Debug/emeocv -i learn/ -l
 - 测试效果
