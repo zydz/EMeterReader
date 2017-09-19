@@ -28,7 +28,7 @@ OCR （Optical Character Recognition，光学字符识别）是指电子设备�
 [wiki](https://en.wikipedia.org/wiki/Canny_edge_detector)
 
 #### 流程图
-![ Program flow](file:///opt/Documents/my-md-docs/emeter/emworkflow.png)
+![ Program flow](https://github.com/zydz/EMeterReader/blob/master/doc/pictures/emworkflow.png)
 ### 流程分析
 - 抓图保存
 - 图像处理
@@ -45,10 +45,10 @@ OCR （Optical Character Recognition，光学字符识别）是指电子设备�
 #### 实现-UML
 
 - 类图
-![class](file:///opt/Documents/my-md-docs/emeter/class.png )
+![class](https://github.com/zydz/EMeterReader/blob/master/doc/pictures/class.png )
 
 - 时序图一 调整摄像头
-![adjust mode](file:///opt/Documents/my-md-docs/emeter/adjust-mode.jpg )
+![adjust mode](https://github.com/zydz/EMeterReader/blob/master/doc/pictures/adjust-mode.jpg )
 
 - 时序图二 工作模式
-![normal mode](file:///opt/Documents/my-md-docs/emeter/normal-mode.jpg )
+![normal mode](https://github.com/zydz/EMeterReader/blob/master/doc/pictures/normal-mode.jpg )
